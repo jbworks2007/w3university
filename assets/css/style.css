@@ -1,0 +1,66 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.bg-one {
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+}
+
+.bg-two {
+    background-image: linear-gradient(83.2deg, rgba(150, 93, 233, 1) 10.8%, rgba(99, 88, 238, 1) 94.3%);
+}
+
+.ptb-25 {
+    padding: 25px 0px;
+}
+
+.header {
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    width: auto;
+    height: auto;
+    padding: 15px;
+}
+
+.text-box {
+    position: absolute;
+    color: #FF6A88;
+    background-color: black;
+    opacity: 0.7;
+    padding-top: 10%;
+    padding: 15px;
+    margin-left: 15%;
+    margin-right: 60%;
+    top: 0px;
+}
+
+@media (max-width: 576px) {
+    .text-box {
+        padding-top: 10px !important;
+        margin-top: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+.para-text {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.icon-one {
+    font-size: 30px;
+    color: #FF6A88;
+}
+
+.box-three {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #FF9A8B;
+    border-radius: 8px;
+}
